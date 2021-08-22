@@ -4,7 +4,7 @@ import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "@constants/data";
 
 export default function Hero() {
-  const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
+  const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6", "#F63E3B"];
   return (
     <div className="flex flex-row justify-center items-start overflow-hidden">
       {/* Text container */}
@@ -18,17 +18,22 @@ export default function Hero() {
           </RainbowHighlight>
           <RainbowHighlight color={colors[1]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Designer.
+              Writer.
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[2]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Programmer.
+              Buddy
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[3]}>
             <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              Youtuber.
+              Guy.
+            </h1>
+          </RainbowHighlight>
+          <RainbowHighlight color={colors[4]}>
+            <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+              Friend.
             </h1>
           </RainbowHighlight>
         </RoughNotationGroup>
